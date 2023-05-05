@@ -115,4 +115,14 @@ module DiamondBeepers
     put_beeper
     turn_around
   end
+
+  def marcher_8
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
 end
