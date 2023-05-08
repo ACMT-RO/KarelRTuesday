@@ -115,4 +115,29 @@ module DiamondBeepers
     put_beeper
     turn_around
   end
+
+  def move_7S
+    move
+    put_beeper
+    move
+    put_beeper
+    move
+    put_beeper
+    move
+    put_beeper
+    move
+    put_beeper
+    move
+    put_beeper
+    move
+    put_beeper
+  end
+
+  def move_5
+    move
+    move
+    move
+    move
+    move
+  end
 end
