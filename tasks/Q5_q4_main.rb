@@ -14,8 +14,8 @@ def task()
   world = Robota::World
   world.read_world("../karel/horloge")
   
-  karel = Q5AQ3Horloge.new(9, 3,NORTH, 32)
-  karel.move_5
+  karel = Q5AQ3Horloge.new(6, 6,NORTH, 32)
+  karel.move_4
   karel.clock_12
   karel.move
   karel.move
@@ -72,7 +72,8 @@ def task()
   karel.turn_right
   karel.move 
   karel.move
-
+  karel.turn_left
+  karel.move
 end
 
 if __FILE__ == $0

@@ -116,6 +116,12 @@ module DiamondBeepers
     turn_around
   end
 
+  def move_4
+    move
+    move 
+    move
+    move
+  end
 
   def move_7S
     move
