@@ -10,7 +10,7 @@ require_relative "../mixins/diamond_beepers_t5"
 # places beepers in a vertical of 5 rows.
 def task()  
   world = Robota::World
-  world.read_world("../karel/Sementer")
+  world.read_world("../karel/sementer")
   
   karel = Q5AQ3Sementing.new(10, 3,SOUTH, 100)
   karel.sementer_block8

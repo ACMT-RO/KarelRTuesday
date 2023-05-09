@@ -12,7 +12,7 @@ require_relative "../mixins/diamond_beepers_t5"
 def task() 
   include Turner 
   world = Robota::World
-  world.read_world("../karel/sementer")
+  world.read_world("../karel/horloge")
   
   karel = Q5AQ3Horloge.new(9, 3,NORTH, 32)
   karel.move_5
