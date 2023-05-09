@@ -7,7 +7,7 @@ require_relative "../karel/ur_robot"
 require_relative "../mixins/turner"
 require_relative "../mixins/diamond_beepers_t5"
 # A class whose robots know how to sweep a short staircase of beepers
-class Q5AQ3Sementing < Q5AQ1BowlingM
+class Q5AQ3Sementing < Q5AQ2BowlingM
   include Turner
   include DiamondBeepers
 
@@ -15,7 +15,7 @@ class Q5AQ3Sementing < Q5AQ1BowlingM
     super(street, avenue, direction, beepers)
   end
   
-  # climb while placing beepers in 5 colloms.
+  # make square out of beepers
   def sementer_block8
     move_7S
     turn_left

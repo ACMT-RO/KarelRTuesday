@@ -116,6 +116,7 @@ module DiamondBeepers
     turn_around
   end
 
+
   def move_7S
     move
     put_beeper
@@ -133,11 +134,15 @@ module DiamondBeepers
     put_beeper
   end
 
-  def move_5
+  def marcher_8
+    move
+    move
+    move
     move
     move
     move
     move
     move
   end
+
 end
