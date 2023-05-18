@@ -1,7 +1,7 @@
 
 $graphical = true
 
-require_relative "q5a_q2_Bowling_m"
+require_relative "direction"
 require_relative "q5a_q1_Bowling_m"
 require_relative "../karel/robota"
 require_relative "../mixins/diamond_beepers_t5"

@@ -1,14 +1,21 @@
 
 $graphical = true
 
-require_relative "q6a_q2_ligne_m"
-require_relative "q6a_q1_ligne_m"
+
+require_relative "q9a_q1_beller_m.rb"
 require_relative "../karel/robota"
 require_relative "../mixins/diamond_beepers_t5"
+require_relative "../mixins/beller"
+
 # places beepers in a vertical of 5 rows.
 def task()  
-  karel = Direction.new(5, 2,SOUTH, 0)  
 
+  karel = Bell.new(2, 2,NORTH, 26)
+  karel.left_bell
+  karel.centre_bell
+  karel.right_bell
+  karel.displays 
+  
 end
 
 if __FILE__ == $0
