@@ -25,6 +25,18 @@ def task()
   karel.enter_run1
   karel.enter_run1
   karel.enter_run1
+  karel.turn_right
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel.move
+  karel
 end
 
 if __FILE__ == $0
