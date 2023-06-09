@@ -43,5 +43,46 @@ class Grincher < UrRobot
     move
     turn_left
   end
+ 
+  def runner
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+  end
+
+  def cash_in
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+    put_beeper
+  end
+  
 end
    
