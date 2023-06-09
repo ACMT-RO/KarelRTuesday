@@ -14,7 +14,7 @@ def task()
   world.read_world("../karel/grincher")
 
   karel = Grincher.new(12, 4,SOUTH, 0)
-  karel.enter_run
+    karel.enter_run
   karel.enter_run
   karel.enter
   karel.turn_left
@@ -25,18 +25,17 @@ def task()
   karel.enter_run1
   karel.enter_run1
   karel.enter_run1
+  karel.turn_left
+  karel.runner
   karel.turn_right
+  karel.centre_3
+  karel.turn_left
   karel.move
+  karel.turn_right
+  karel.centre_2
+  karel.cash_in
+  karel.turn_around
   karel.move
-  karel.move
-  karel.move
-  karel.move
-  karel.move
-  karel.move
-  karel.move
-  karel.move
-  karel.move
-  karel
 end
 
 if __FILE__ == $0
